@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Donate Bangladesh</title>
+
+</head>
+
+<body>
+    <nav class="sticky top-0 z-50 bg-transparent shadow-md">
+        <section class="upper flex justify-between">
+            <div>
+              
+                <button id="home" class="btn bg-[#B4F461]">Home</button>
+
+            </div>
+            <div class="flex items-center gap-2">
+                <img src="assets/logo.png" alt="">
+                <p class="text-xl font-bold">Donate Bangladesh</p>
+            </div>
+            <div class="flex items-center gap-2">
+                <img src="assets/coin.png" alt="">
+                <p><span id="bal">5500</span>BDT</p>
+            </div>
+        </section>
+       
+    </nav>
+   <section>
+    <div class="collapse collapse-plus bg-base-200">
+        <input type="radio" name="my-accordion-3" checked="checked" />
+        <div class="collapse-title text-xl font-medium">What is the Document Object Model (DOM)?</div>
+        <div class="collapse-content">
+          <p>The Document Object Model (DOM) is a programming interface for web documents. It represents the structure of a document—like an HTML document—as a tree of nodes. Each node represents a part of the document, such as elements, attributes, and text. </p>
+        </div>
+      </div>
+      <div class="collapse collapse-plus bg-base-200">
+        <input type="radio" name="my-accordion-3" />
+        <div class="collapse-title text-xl font-medium">How do you select an element from the DOM?</div>
+        <div class="collapse-content">
+          <p>Choosing the Right Method:
+
+            Use getElementById() when you have a unique ID for the element.
+            Use getElementsByTagName() when you know the tag name of the elements you want to select.
+            Use getElementsByClassName() when you know the class name of the elements you want to select.
+            Use querySelector() or querySelectorAll() when you want to use CSS selectors to select elements based on their attributes, relationships, or other criteria.</p>
+        </div>
+      </div>
+      <div class="collapse collapse-plus bg-base-200">
+        <input type="radio" name="my-accordion-3" />
+        <div class="collapse-title text-xl font-medium">What is event delegation in the context of the DOM, and why is it useful?</div>
+        <div class="collapse-content">
+          <p>Event Delegation
+
+            Event delegation is a technique in JavaScript where event handlers are attached to a parent element, rather than to individual child elements. This technique is particularly useful for handling events on dynamically added elements or a large number of elements.
+            
+            Why is it useful?
+            
+            By attaching a single event listener to a parent element, you reduce the number of event listeners that need to be created and managed, leading to better performance, especially for large numbers of elements.
+            </p>
+        </div>
+      </div>
+      <div class="collapse collapse-plus bg-base-200">
+        <input type="radio" name="my-accordion-3" />
+        <div class="collapse-title text-xl font-medium">How do you manipulate an element's attributes and styles using the DOM?</div>
+        <div class="collapse-content">
+          <p>To manipulate an element's attributes and styles using the DOM, we can leverage JavaScript's DOM API. Here are the common methods:
+            Use the setAttribute() method to set an attribute on an element:
+            Use the getAttribute() method to get the value of an attribute:
+            Use the style property to directly set inline styles:
+            </p>
+        </div>
+      </div>
+   </section>
+
+
+
+
+
+
+
+
+
+    <script src="/blog.js"></script>
+</body>
+
+
+
+
+
+</html>

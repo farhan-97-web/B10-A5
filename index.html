@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+   
+    
+    <title>Donate Bangladesh</title>
+    
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+
+   
+</head>
+
+<body>
+   
+    <nav class="sticky top-0 z-50 bg-blue-100 shadow-md">
+        <section class="upper flex justify-between">
+            <div>
+                <button id="blog" class="btn bg-[#B4F461]">Blog</button>
+            </div>
+            <div class="flex items-center gap-2">
+                <img src="assets/logo.png" alt="">
+                <p class="text-xl font-bold">Donate Bangladesh</p>
+            </div>
+            <div class="flex items-center gap-2">
+                <img src="assets/coin.png" alt="">
+                <p><span id="bal">5500</span>BDT</p>
+            </div>
+        </section>
+        <section class="my-4">
+            <div class="flex justify-center gap-4">
+                <button id="dnt" class="btn colored colored bg-[#B4F461]">Donation</button>
+                <button id="hst" class="btn colored colored">History</button>
+            </div>
+        </section>
+    </nav>
+   
+   <main>
+    <section id="donation-section">
+        <div class="card lg:card-side bg-base-100 shadow-xl">
+            <figure class="w-1/2">
+              <img
+                src="assets/noakhali.png"
+                alt="Album" />
+            </figure>
+            
+            <div class="card-body w-1/2">
+              <button class="btn flex items-center gap-2 w-32">
+                <img src="assets/coin.png" alt="">
+                <p><span id="recivedNoa">5500</span>BDT</p>
+              </button>
+              <h2 id="noa-title" class="card-title">Donate for Flood at Noakhali, Bangladesh</h2>
+              <p> The recent floods in Noakhali have caused significant damage to homes  infrastructure. Your donation will help provide essential supplies and  to those affected by this disaster. Every contribution, big or small, makes  difference. Please join us in supporting the relief efforts and making a positive impact on the lives of those in need.</p>
+              <input id="forNoa" type="text" placeholder="Type here" class="input input-bordered w-full taka" />
+              <button class="btn donate-btn w-full bg-[#B4F461]">Donate Now</button>
+              <dialog id="my_modal_2" class="modal">
+                <div class="modal-box">
+                  <h3 class="text-lg font-bold">Congrates</h3>
+                  <p class="py-4">you have donated successfully</p>
+                </div>
+                <form method="dialog" class="modal-backdrop">
+                  <button>close</button>
+                </form>
+              </dialog>
+            </div>
+          </div>
+        <div class="card lg:card-side bg-base-100 shadow-xl">
+            <figure class="w-1/2">
+              <img
+                src="assets/feni.png"
+                alt="Album" />
+            </figure>
+            
+            <div class="card-body w-1/2">
+              <button class="btn flex items-center gap-2 w-32">
+                <img src="assets/coin.png" alt="">
+                <p><span id="recivedFeni">5500</span>BDT</p>
+              </button>
+              <h2 id="feni-title" class="card-title">Donate for Flood Relief in Feni,Bangladesh</h2>
+              <p>The recent floods in Feni have devastated local communities, leading to severe disruption and loss. Your generous donation will help provide immediate aid, including food, clean water, and medical supplies, to those affected by this calamity. Together, we can offer crucial support and help rebuild lives in the aftermath of this disaster. Every contribution counts towards making a real difference. Please consider donating today to assist those in urgent need.</p>
+              <input id="forFeni" type="text" placeholder="Type here" class="input input-bordered w-full taka" />
+              <div>
+                <button class="donate-btn btn w-full bg-[#B4F461]">Donate Now</button>
+                <dialog id="my_modal_3" class="modal">
+                  <div class="modal-box">
+                    <h3 class="text-lg font-bold">Congrates</h3>
+                  <p class="py-4">you have donated successfully</p>
+                  </div>
+                  <form method="dialog" class="modal-backdrop">
+                    <button>close</button>
+                  </form>
+                </dialog>
+              </div>
+             
+            </div>
+          </div>
+        <div class="card lg:card-side bg-base-100 shadow-xl">
+            <figure class="w-1/2">
+              <img
+                src="assets/quota-protest.png"
+                alt="Album" />
+            </figure>
+            <div class="card-body w-1/2">
+              <button class="btn flex items-center gap-2 w-32">
+                <img src="assets/coin.png" alt="">
+                <p><span  id="recivedQota">5500</span>BDT</p>
+              </button>
+              <h2 id="q-title" class="card-title">Aid for Injured in the Quota Movement</h2>
+              <p>The recent Quota movement has resulted in numerous injuries and significant hardship for many individuals. Your support is crucial in providing medical assistance, rehabilitation, and necessary supplies to those affected. By contributing, you help ensure that injured individuals receive the care and support they need during this challenging time. Every donation plays a vital role in alleviating their suffering and aiding in their recovery. Please consider making a donation to support these brave individuals in their time of need.</p>
+              <input id="forQota" type="text" placeholder="Type here" class="input input-bordered w-full taka" />
+              <button  class="btn donate-btn w-full bg-[#B4F461]">Donate Now</button>
+              <dialog id="my_modal_4" class="modal">
+                <div class="modal-box">
+                  <h3 class="text-lg font-bold">Congrates</h3>
+                  <p class="py-4">you have donated successfully</p>
+                </div>
+                <form method="dialog" class="modal-backdrop">
+                  <button>close</button>
+                </form>
+            </div>
+          </div>
+    </section>
+    <section id="history" class="hidden">
+      <h1>History</h1>
+      <div id="history-container">
+
+      </div>
+    </section>
+   </main>
+
+
+
+
+
+
+   <script src="index.js"></script>
+</body>
+
+</html>
