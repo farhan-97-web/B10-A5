@@ -127,6 +127,7 @@ document.getElementById('dnt').addEventListener('click', function () {
 document.getElementById('blog').addEventListener('click', function(){
     window.location.href = '/blog.html';
     
+    
 })
 
 

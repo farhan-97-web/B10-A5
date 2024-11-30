@@ -18,13 +18,13 @@
 <body>
    
     <nav class="sticky top-0 z-50 bg-blue-100 shadow-md">
-        <section class="upper flex justify-between">
+        <section class="upper flex flex-col md:flex-row lg:flex-row md:justify-between lg:justify-between">
             <div>
                 <button id="blog" class="btn bg-[#B4F461]">Blog</button>
             </div>
             <div class="flex items-center gap-2">
                 <img src="assets/logo.png" alt="">
-                <p class="text-xl font-bold">Donate Bangladesh</p>
+                <p class="text-sm lg:text-xl font-bold">Donate Bangladesh</p>
             </div>
             <div class="flex items-center gap-2">
                 <img src="assets/coin.png" alt="">
@@ -40,15 +40,15 @@
     </nav>
    
    <main>
-    <section id="donation-section">
+    <section  id="donation-section">
         <div class="card lg:card-side bg-base-100 shadow-xl">
-            <figure class="w-1/2">
+            <figure class="w-full lg:w-1/2">
               <img
                 src="assets/noakhali.png"
                 alt="Album" />
             </figure>
             
-            <div class="card-body w-1/2">
+            <div class="card-body w-full lg:w-1/2">
               <button class="btn flex items-center gap-2 w-32">
                 <img src="assets/coin.png" alt="">
                 <p><span id="recivedNoa">5500</span>BDT</p>
@@ -69,13 +69,13 @@
             </div>
           </div>
         <div class="card lg:card-side bg-base-100 shadow-xl">
-            <figure class="w-1/2">
+            <figure class="w-full lg:w-1/2">
               <img
                 src="assets/feni.png"
                 alt="Album" />
             </figure>
             
-            <div class="card-body w-1/2">
+            <div class="card-body w-full lg:w-1/2">
               <button class="btn flex items-center gap-2 w-32">
                 <img src="assets/coin.png" alt="">
                 <p><span id="recivedFeni">5500</span>BDT</p>
@@ -99,12 +99,12 @@
             </div>
           </div>
         <div class="card lg:card-side bg-base-100 shadow-xl">
-            <figure class="w-1/2">
+            <figure class="w-full lg:w-1/2">
               <img
                 src="assets/quota-protest.png"
                 alt="Album" />
             </figure>
-            <div class="card-body w-1/2">
+            <div class="card-body w-full lg:w-1/2">
               <button class="btn flex items-center gap-2 w-32">
                 <img src="assets/coin.png" alt="">
                 <p><span  id="recivedQota">5500</span>BDT</p>
@@ -125,7 +125,7 @@
           </div>
     </section>
     <section id="history" class="hidden">
-      <h1>History</h1>
+      <h1 class="text-xl font-bold text-center">History</h1>
       <div id="history-container">
 
       </div>
